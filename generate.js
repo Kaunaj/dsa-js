@@ -18,6 +18,7 @@ function createFileContents(fileName, args) {
   console.log("params in createFileContents", fileName, args);
   const className = createClassFromFileName(fileName);
   return `// Practice Link: [paste link here]
+
 const { execute } = require("../test");
 
 class ${className} {
